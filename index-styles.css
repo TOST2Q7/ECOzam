@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+header {
+    margin: 0;
+    height: auto;
+    padding-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-left-side {
+    display: flex;
+    align-items: center;
+}
+
+/* HEADER LOGO */
+.header-logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+/* HEADER LOGO */
+
+
+/* HEADER MENU */
+.header-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 400;
+}
+
+.header-menu ul li {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+/* HEADER MENU */
+
+
+/* HEADER RIGHT SIDE */
+.header-right-side {
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.header-right-side div {
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.header-right-side div a {
+    text-decoration: none;
+}
+
+.header-signIn-button {
+    background-color: #acacac00;
+}
+.header-signIn-button a {
+    color: #2054e4;
+}
+
+.header-bookADemo-button {
+    background-color: #2f5df3;
+}
+.header-bookADemo-button a {
+    color: #fcfcfc;
+}
+
+.header-bookADemo-button:hover{
+    background-color: #2149ca;
+}
+/* HEADER RIGHT SIDE */
+
+
+/* DEBUG */
+/* .hero-section div { */
+    /* background-color: #a5a5a58f;
+    border: 2px solid #e23f3f3d;
+} */
+/* DEBUG */
+
+.hero-section {
+    display: grid;
+    grid-gap: 5px;    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 350px 50px;
+    grid-template-areas:
+        "t t i";
+}
+
+/* HERO TEXT */
+.hero-text {
+    grid-area: t;
+    padding-right: 100px;
+}
+.hero-text-main {
+    font-size: xx-large;
+}
+
+.hero-text-under {
+}
+
+.hero-text-buttons{
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-text-buttons div {
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.hero-text-buttons div a {
+    text-decoration: none;
+}
+
+.hero-text-BookADemo-button {
+    background-color: #acacac00;
+}
+.hero-text-LearnMore-button a {
+    color: #2054e4;
+}
+
+.hero-text-BookADemo-button {
+    background-color: #2f5df3;
+}
+.hero-text-BookADemo-button a {
+    color: #fcfcfc;
+}
+
+.hero-text-BookADemo:hover{
+    background-color: #2149ca;
+}
+
+
+
+
+/* HERO TEXT */
+
+
+.hero-img {
+    grid-area: i;
+}
